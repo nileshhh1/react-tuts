@@ -1,18 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
+import './index.css';
 import './AuthForm.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import Counter from './Counter';
+// import User from './User';
 // import SimpleForm from './SimpleForm';
-import AuthForm from './AuthForm';
+// import AuthForm from './AuthForm';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <AuthForm/>
+    {/* <User /> */}
+    {/* <AuthForm/> */}
+    <App /> 
+    <Counter/>
   </React.StrictMode>
 );
 
