@@ -4,6 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './AuthForm.css';
 import Props from './Props';
+import InputBox from './InputBox';
 // import App from './App';
 // import Counter from './Counter';
 // import User from './User';
@@ -18,7 +19,8 @@ root.render(
     {/* <AuthForm/> */}
     {/* <App /> 
     <Counter/> */}
-    <Props/>
+    {/* <Props/> */}
+    <InputBox/>
   </React.StrictMode>
 );
 
