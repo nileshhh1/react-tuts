@@ -1,5 +1,6 @@
 import './App.css';
 import React,{ useState } from 'react';
+import Props from './Props';
 function App() {
 
 let [data,setData]=useState("who is coding??");
@@ -16,6 +17,8 @@ const updateData=()=>{
     <div>
     <h1>{data}</h1>
     <button onClick={updateData}>Click me</button>
+
+    <Props name="Nileshhh..."/>
     </div>
   );
 }

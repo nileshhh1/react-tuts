@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './AuthForm.css';
-import reportWebVitals from './reportWebVitals';
-import App from './App';
-import Counter from './Counter';
+import Props from './Props';
+// import App from './App';
+// import Counter from './Counter';
 // import User from './User';
 // import SimpleForm from './SimpleForm';
 // import AuthForm from './AuthForm';
@@ -15,8 +16,9 @@ root.render(
   <React.StrictMode>
     {/* <User /> */}
     {/* <AuthForm/> */}
-    <App /> 
-    <Counter/>
+    {/* <App /> 
+    <Counter/> */}
+    <Props/>
   </React.StrictMode>
 );
 
